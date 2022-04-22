@@ -1,0 +1,129 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:hsl(212, 45%, 89%);
+    font-family: 'Outfit',sans-serif;
+   
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .qr-code-container{
+    height: 480px;
+    width: 300px;
+    background: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;  
+  }
+.qr-code-img{
+    height: 270px;
+    background-image: url('./images/image-qr-code.png');
+    background-size: contain;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img {
+    width: 17rem;
+    padding-top: 2%;
+    border-radius: 20px;
+}
+
+
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 9px 15px;
+}
+
+p{
+    font-size: 1rem;
+    color: hsl(220, 15%, 55%);
+    padding: 9px 15px;
+    font-weight: 500;
+    text-align: center;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   /* background:hsl(212, 45%, 89%); */
+   font-family: 'Outfit',sans-serif;
+
+}
+
+/* main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+.qr-code-container{
+/* width: 300px;    
+height: 480px;       (qu) i wrote falsh */
+/* background: hsl(0, 0%, 100%);
+position: absolute; */
+top: 50%;
+/* left: 50%;
+transform: translate(-50%,-50%); */
+/* border-radius: 20px; */
+/* box-shadow: rgba (0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+}
+
+
+/* .qr-code-img{
+    height: 270px;
+    background-image: url('./images/image-qr-code.png');
+    background-size: contain;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+} */
+
+img {
+    width: 17rem;
+    padding-top: 2%;
+    border-radius: 20px;
+}
+
+h1{
+    /* font-size: 1.5rem;  */
+    text-align: center;
+    padding: 9px 15px;
+  
+}
+
+/* p{
+ font-size: 9px 15px;
+ text-align: center;
+} */
+
+p{
+    font-size: 1rem;
+    color: hsl(220, 15%, 55%);
+    padding: 9px 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* .attribution {
+     font-size: 9px; 
+     text-align: center; 
+    }
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+} */
